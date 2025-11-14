@@ -8,7 +8,7 @@ class Employee{
         double salary;
     public:        
         Employee(string n, double s){
-            employeeCount ++;
+            // employeeCount ++;
             name = n;
             salary = s;
         }
@@ -27,7 +27,7 @@ class Staff : public Employee {
     string department;
     public:
     Staff (string n, double s, string d = "") : Employee(n, s) , department(d){
-        Employee().employeeCount = 0;
+        // Employee().employeeCount = 0;
     };                
 
     virtual void displayInfo(){
